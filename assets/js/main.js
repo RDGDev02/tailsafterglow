@@ -6,6 +6,13 @@
 */
 (function() {
   "use strict";
+
+  $ (window).ready (function () {
+    setTimeout (function () {
+      $ ('#merchModal').modal ("show")
+    }, 1000)
+  })
+  
   
   const swiper = new Swiper('.swiper', {
     // Optional parameters
