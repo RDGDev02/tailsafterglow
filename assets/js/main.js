@@ -10,7 +10,7 @@
   $ (window).ready (function () {
     setTimeout (function () {
       $ ('#countModal').modal ("show")
-    }, 1000)
+    }, 2000)
   })
   
   var countDownDate = new Date("July 18, 2023 20:00:00").getTime();
