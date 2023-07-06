@@ -365,6 +365,10 @@ h2, h3, h4, h5, h6 {
   .navbar ul {
     display: none;
   }
+  .bottom-right {
+   
+    bottom: 0;
+  }
 }
 .navbar-mobile {
   position: fixed;
@@ -553,6 +557,10 @@ h2, h3, h4, h5, h6 {
     font-size: 18px;
     line-height: 24px;
     margin-bottom: 30px;
+  }
+  .bottom-right {
+   
+    bottom: 0 !important; 
   }
 }
 @media screen and (min-width: 100px) and (max-width: 480px) {
@@ -2001,27 +2009,38 @@ Not supports in Firefox and IE */
   margin-bottom: 2rem;
 }
 
-.merchModal{
+.countModal{
   background-color: #d6d6d6 !important;
-  border-radius: 23px !important;
+  border-radius: 30px !important;
 }
 
 .hfc{
   position:relative;
-  
+}
+/* Bottom right text */
+.bottom-right {
+  position: absolute;
+  bottom: 25%;
+  right: 8%;
+}
+.bottom-right .display-1{
+  font-family: Spantaran;
+  color: white; /* Fallback for older browsers */
+  color: transparent;
+  -webkit-text-stroke: 1px black; /* width and color */
 }
 
-.merchImg{
+.countImg{
   width:100%;
   height: 100%;
-  border-radius: 23px;
+  border-radius: 30px;
 }
-.merchBody{
+.countBody{
  padding: 0;
- border-radius: 23px !important;
+ border-radius: 30px !important;
  
 }
-.merchClose{
+.countClose{
   position:absolute;
   top:5px;
   right:5px;
