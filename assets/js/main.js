@@ -9,7 +9,7 @@
 
   $ (window).ready (function () {
     setTimeout (function () {
-      $ ('#countModal').modal ("show")
+      $ ('#merchModal').modal ("show")
     }, 2000)
   })
   
