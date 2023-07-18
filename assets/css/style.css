@@ -2052,4 +2052,10 @@ Not supports in Firefox and IE */
 .img-team{
   padding: 0.1rem;
 }
-
+.merchBody{
+  padding: 0;
+  
+}
+.merchModal{
+  border-radius: 35px !important;
+}
